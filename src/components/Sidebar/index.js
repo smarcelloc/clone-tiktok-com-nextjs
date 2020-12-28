@@ -1,7 +1,6 @@
 import {
   Menu,
   MenuItem,
-  MenuIcon,
   MenuText,
   FollowingMenu,
   FollowingHeader,
@@ -12,6 +11,8 @@ import {
 import {
   HomeIcon, PeopleIcon
 } from '@components/Icons';
+
+import { User } from '@components/User';
 
 function Sidebar() {
   return (
@@ -26,11 +27,11 @@ function Sidebar() {
       </MenuItem>
       <FollowingMenu>
         <FollowingHeader>Suas principais contas</FollowingHeader>
-        {/* <User user={{
+        <User user={{
           name: 'Will Smith',
           username: 'willsmith',
           avatar: '/images/profile.png'
-        }}></User> */}
+        }}></User>
       </FollowingMenu>
       <InfoContainer>
         <Links>
