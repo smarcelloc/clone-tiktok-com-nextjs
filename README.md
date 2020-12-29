@@ -1,5 +1,6 @@
-# Clone interface do TikTok com NextJS & MongoDB
+# Clone de interface do TikTok com NextJS & MongoDB
 
+![Tela principal do TikTok](tela.png)
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
