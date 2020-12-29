@@ -1,10 +1,12 @@
-import styled from 'styled-components'
+import { Layout } from '@components/Layout';
+import { Feed } from '@components/Feed';
+import { Suggestions } from '@components/Suggestions';
 
-const Title = styled.h1`
-  font-size: 50px;
-  color: ${({ theme }) => theme.colors.primary};
-`;
-
-export default function Home() {
-  return <Title>TikTok</Title>
+export default function Index({ posts }) {
+  return (
+    <Layout>
+      <Feed posts={posts}></Feed>
+      <Suggestions></Suggestions>
+    </Layout>
+  );
 }
