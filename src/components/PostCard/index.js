@@ -19,9 +19,10 @@ import {
 import Button from '@components/Button';
 import { ArrowIcon, BubbleIcon, HeartIcon, PauseIcon, PlayIcon, SongIcon } from '@components/Icons';
 
-import ReactPlay from "react-player";
+import ReactPlay from "react-player/lazy";
 
 export function PostCard({ post }) {
+  console.log()
   const [running, setRunning] = useState(false);
 
   const toggleAction = () => {
@@ -33,6 +34,7 @@ export function PostCard({ post }) {
   }
 
   return (
+
     <Container>
       <Header>
         <PersonContainer>
