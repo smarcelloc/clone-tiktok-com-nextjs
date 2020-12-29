@@ -17,7 +17,10 @@ export function Header() {
           <Logo />
         </LogoContainer>
         <OptionsContainer>
-          <UploadIcon />
+          <a href="#" style={{ color: 'inherit' }}>
+            <UploadIcon />
+          </a>
+
           <Avatar>
             <img src='/images/avatar.png' />
           </Avatar>

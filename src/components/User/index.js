@@ -5,7 +5,7 @@ export function User({ user }) {
     <Container>
       <Avatar src={user.avatar}></Avatar>
       <Info>
-        <a>{user.name}</a>
+        <a href="#" style={{ color: 'inherit' }}>{user.name}</a>
         <span>{user.username}</span>
       </Info>
     </Container>

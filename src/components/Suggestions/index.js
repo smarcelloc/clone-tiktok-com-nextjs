@@ -21,10 +21,16 @@ import { items } from "./items";
 export function Suggestions() {
   return (
     <Container>
-      <IconsContainer>
-        <FacebookIcon />
-        <PinterestIcon />
-        <TwitterIcon />
+      <IconsContainer >
+        <a href="#">
+          <FacebookIcon />
+        </a>
+        <a href="#">
+          <PinterestIcon />
+        </a>
+        <a href="#">
+          <TwitterIcon />
+        </a>
       </IconsContainer>
       <BoxContainer>
         <BoxHeader>

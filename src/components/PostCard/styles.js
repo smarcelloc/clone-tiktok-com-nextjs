@@ -110,6 +110,10 @@ export const VideoContainer = styled.div`
       visibility: visible;
     }
   }
+
+  video{
+    border-radius: 9px !important;
+  }
 `;
 
 export const Actions = styled.div`

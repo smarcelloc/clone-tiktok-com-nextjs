@@ -79,13 +79,15 @@ export const InfoUserName = styled.span`
 
 export const ItemContainer = styled.div`
   height: calc(100% - 72px);
+  padding-right: 10px;
   overflow: auto;
   cursor: pointer;
 `;
 
 export const DownloadImage = styled.img`
-  width: 170px;
-  height: 50px;
+  width: 161px;
+  height: 46px;
   border-radius: 5px;
   margin-bottom: 12px;
+  margin-right: 6px;
 `;
