@@ -33,12 +33,12 @@ export const BoxContainer = styled.div`
 `;
 
 export const BoxHeader = styled.h2`
-  padding: 24px 16px;
-  padding-right: 12px;
+  padding-left: 12px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   flex: 0 0 auto;
+  font-weight: bolder;
 `;
 export const BoxContent = styled.div`
   height: calc(100% - 72px);
@@ -64,10 +64,12 @@ export const ButtonContainer = styled.div`
 `;
 
 export const DownloadImage = styled.img`
-  width: 170px;
-  height: 50px;
+  width: 161px;
+  height: 45px;
   border-radius: 5px;
   margin-bottom: 12px;
+  margin-right: 8px;
+  cursor: pointer;
 `;
 
 // export const SocialContainer = styled.div``;

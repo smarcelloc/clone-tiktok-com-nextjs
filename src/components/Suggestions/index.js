@@ -26,6 +26,7 @@ import RecommendCard from "@components/RecommendCard";
 export function Suggestions() {
 
   return (
+
     <Container>
       <SocialContainer>
         <SocialButton>

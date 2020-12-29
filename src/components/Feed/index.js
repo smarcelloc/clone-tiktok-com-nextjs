@@ -1,3 +1,4 @@
+import { PostCard } from '@components/PostCard'
 import { Container } from "@components/Feed/styles";
 
 export function Feed({ posts }) {
